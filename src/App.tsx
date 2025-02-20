@@ -27,11 +27,12 @@ function App() {
 
       <div className='card'>
         <iframe
-          src='https://sel.ex-select.com/replus/login'
+          src='https://sel.ex-select.com/replus/'
           title='Login Page'
           width={`${winWidth}px`}
           height={`${winHeight - 200}px`}
           style={{ border: 'none' }}
+          allow='clipboard-read; clipboard-write'
         />
       </div>
     </>
